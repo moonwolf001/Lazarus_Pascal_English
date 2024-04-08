@@ -1,0 +1,24 @@
+# Compiled binary files
+*.exe
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# Lazarus-specific
+*.lpi
+*.lpr
+*.lfm
+*.lpk
+*.lps
+*.compiled
+
+# Backup & log files
+*.bak
+*.log
+*.tmp
+
+# Other files to ignore
+.DS_Store
+Thumbs.db
