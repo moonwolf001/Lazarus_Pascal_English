@@ -11,6 +11,7 @@ This book introduces readers to the basics of 2D game development using Pascal p
 - **Author**: MoonWolf
 - **Year**: 2023
 - [Get the book on Amazon](https://www.amazon.com/dp/B0CHN7PK88)
+- Branch [Book100](https://github.com/moonwolf001/Lazarus_Pascal_English/tree/book100)
 
 ### CHATGPT4 SIMPLE 2D GAME by LAZARUS (Pascal) Programming: Step by Step Game development approach with Appendix of Pascal Grammar and Lazarus detail (Book200)
 
@@ -19,6 +20,8 @@ Dive deeper into game development with Lazarus and Pascal. This book provides a 
 - **Author**: MoonWolf
 - **Year**: 2024
 - [Get the book on Amazon](https://www.amazon.com/dp/B0CTMWC1TL)
+- Branch [Book200](https://github.com/moonwolf001/Lazarus_Pascal_English/tree/book200)
+
 
 ## Using This Repository
 
