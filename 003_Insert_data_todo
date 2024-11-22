@@ -1,0 +1,5 @@
+INSERT INTO todo (text) VALUES ('Finish project report');
+INSERT INTO todo (text) VALUES ('Schedule a dentist appointment');
+INSERT INTO todo (text) VALUES ('Prepare for the team meeting');
+INSERT INTO todo (text) VALUES ('Do the laundry');
+INSERT INTO todo (text) VALUES ('Plan the weekend trip');
