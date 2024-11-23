@@ -1,0 +1,18 @@
+-- Open the database (or create it if it doesn't exist)
+
+.open test02
+
+-- Create the 'student' table
+
+CREATE TABLE student (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    city TEXT NOT NULL
+);
+
+-- Insert 3 records into the 'student' table
+
+INSERT INTO student (name, city) VALUES ('Mary', 'New York');
+INSERT INTO student (name, city) VALUES ('Tom', 'Los Angeles');
+INSERT INTO student (name, city) VALUES ('John', 'Chicago');
+
