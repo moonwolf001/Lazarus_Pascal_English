@@ -1,1 +1,20 @@
+<< Basic DB Connection setting by Lazarus + SQLite3 >>
 
+
+SQLite3Connection1 ( unde SQLdb tab )
+  DataBaseName := test02
+
+SQLTransaction1 ( under SQLdb tab )
+  DataBase := SQLite3Connection1
+
+SQLQuery1   ( under SQLdb tab )
+  DataBase := SQLite3Connection1
+
+DataSource1  ( under Data Access tab )
+  DataSet := SQLQuery1
+
+DBGrid1  ( under Data Control tab )
+  DataSource := DataSource1
+
+DBNavigator  ( under Data Control tab )
+  DataSource := DataSource1
