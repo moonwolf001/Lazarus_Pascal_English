@@ -1,0 +1,91 @@
+object Form1: TForm1
+  Left = 325
+  Height = 466
+  Top = 121
+  Width = 377
+  Caption = 'Form1'
+  ClientHeight = 466
+  ClientWidth = 377
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  object DBGrid1: TDBGrid
+    Left = 16
+    Height = 312
+    Top = 8
+    Width = 344
+    Color = clWindow
+    Columns = <>
+    DataSource = DataSource1
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgAutoSizeColumns, dgDisplayMemoText]
+    TabOrder = 0
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 72
+    Height = 25
+    Top = 336
+    Width = 241
+    BevelOuter = bvNone
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 25
+    ClientWidth = 241
+    DataSource = DataSource1
+    Options = []
+    TabOrder = 1
+  end
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'test02'
+    KeepConnection = False
+    Transaction = SQLTransaction1
+    AlwaysUseBigint = False
+    Left = 48
+    Top = 376
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Database = SQLite3Connection1
+    Left = 136
+    Top = 400
+  end
+  object SQLQuery1: TSQLQuery
+    MaxIndexesCount = 4
+    FieldDefs = <    
+      item
+        Name = 'id'
+        DataType = ftAutoInc
+        Precision = -1
+      end    
+      item
+        Name = 'name'
+        DataType = ftMemo
+        Precision = -1
+      end    
+      item
+        Name = 'city'
+        DataType = ftMemo
+        Precision = -1
+      end>
+    AfterDelete = SQLQuery1AfterDelete
+    AfterPost = SQLQuery1AfterPost
+    Database = SQLite3Connection1
+    Transaction = SQLTransaction1
+    SQL.Strings = (
+      'select * from student'
+    )
+    Params = <>
+    Macros = <>
+    Left = 224
+    Top = 384
+  end
+  object DataSource1: TDataSource
+    DataSet = SQLQuery1
+    Left = 306
+    Top = 392
+  end
+end
