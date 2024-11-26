@@ -1,0 +1,6 @@
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  // to display student table on DBGrid1
+  SQLQuery1.SQL.Text := 'SELECT * FROM student';
+  SQLQuery1.Open;
+end;
