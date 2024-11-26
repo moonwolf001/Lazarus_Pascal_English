@@ -1,0 +1,6 @@
+procedure TForm1.SQLQuery1AfterPost(DataSet: TDataSet);
+begin
+  // to delete a record
+  SQLQuery1.ApplyUpdates;  
+  SQLTransaction1.CommitRetaining;
+end;
