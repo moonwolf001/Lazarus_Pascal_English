@@ -56,7 +56,7 @@ end;
 
 procedure TForm1.SQLQuery1AfterPost(DataSet: TDataSet);
 begin
-  // to modify field, to add record
+  // to modify field, or to add a record
   SQLQuery1.ApplyUpdates;
   SQLTransaction1.CommitRetaining;
 end;
