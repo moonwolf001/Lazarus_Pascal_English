@@ -27,10 +27,6 @@ Dive deeper into game development with Lazarus and Pascal. This book provides a 
 
 To use the source code in this repository, simply navigate to the book-specific branches (`book100` and `book200`) to access the code relevant to each book. This setup allows you to easily find and utilize the examples and projects discussed in our books.
 
-## Contribution
-
-Feedback, questions, and contributions are welcome! If you have suggestions or need clarification on any of the code examples, feel free to open an issue or submit a pull request. Please ensure your contributions are constructive and respectful of the community guidelines.
-
 ## License
 
 The source code in this repository is made available under the MIT License. See the LICENSE file for more details.
