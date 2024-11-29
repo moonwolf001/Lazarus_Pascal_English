@@ -1,0 +1,15 @@
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  // Adding new record from Edit1.text by pressing button1
+  SQLQuery1.Close;
+
+  SQLQuery1.SQL.Text := 'INSERT INTO ToDoList (ToDo) VALUES (:ToDo)';
+  SQLQuery1.ParamByName('ToDo').AsString := Edit1.Text;
+
+  SQLQuery1.ExecSQL;
+  SQLTransaction1.Commit;
+
+  // Refresh DBGrid Display
+  SQLQuery1.SQL.Text := 'SELECT * FROM ToDoList';
+  SQLQuery1.Open;
+end;                
