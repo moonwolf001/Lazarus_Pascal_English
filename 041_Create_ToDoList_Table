@@ -1,0 +1,12 @@
+.open test02
+
+create table todolist (
+id integer primary key,
+todo text
+);
+
+insert into todolist value ('To check the report');
+insert into todolist value ('To watch YouTube');
+insert into todolist value ('To read MoonWolf''s book');
+
+
