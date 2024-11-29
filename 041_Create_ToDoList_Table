@@ -1,10 +1,13 @@
+-- create or open DB file TEST02
 .open test02
 
+-- create a new table
 create table todolist (
 id integer primary key,
 todo text
 );
 
+-- insert some sample data
 insert into todolist (todo) values ('To check the report');
 insert into todolist (todo) values ('To watch YouTube');
 insert into todolist (todo) values ('To read MoonWolf''s book');
