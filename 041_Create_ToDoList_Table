@@ -5,8 +5,8 @@ id integer primary key,
 todo text
 );
 
-insert into todolist (todo) value ('To check the report');
-insert into todolist (todo) value ('To watch YouTube');
-insert into todolist (todo) value ('To read MoonWolf''s book');
+insert into todolist (todo) values ('To check the report');
+insert into todolist (todo) values ('To watch YouTube');
+insert into todolist (todo) values ('To read MoonWolf''s book');
 
 
