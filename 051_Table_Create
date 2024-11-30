@@ -1,0 +1,17 @@
+-- create or open DB file
+.open  test02
+
+-- create a table for ToDoList Lv.10
+create table todolist10 (
+id integer primary key,
+imp text,
+urg text,
+todo text
+);
+
+-- insert some record to todolist10 table
+insert into todolist10 (imp,urg,todo) values ('high','high','Area1');
+insert into todolist10 (imp,urg,todo) values ('low','high','Area2');
+insert into todolist10 (imp,urg,todo) values ('low','low','Area3');
+insert into todolist10 (imp,urg,todo) values ('high','low','Area4');
+
