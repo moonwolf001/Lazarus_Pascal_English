@@ -22,6 +22,15 @@ Dive deeper into game development with Lazarus and Pascal. This book provides a 
 - [Get the book on Amazon](https://www.amazon.com/dp/B0CTMWC1TL)
 - Branch [Book200](https://github.com/moonwolf001/Lazarus_Pascal_English/tree/book200)
 
+### Lazarus SQL DB with SQLite3 (Book300)
+
+Lazarus IDE is one of the best solution to develop DB application. This book guides you to solve initial issues when create SQLDB application.
+
+- **Author**: MoonWolf
+- **Year**: 2024
+- [Get the book on Amazon](https://www.amazon.com/dp/B0DPC6BY2L)
+- Branch [Book200](https://github.com/moonwolf001/Lazarus_Pascal_English/tree/book300)
+
 
 ## Using This Repository
 
