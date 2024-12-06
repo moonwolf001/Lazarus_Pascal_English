@@ -29,7 +29,7 @@ Lazarus IDE is one of the best solution to develop DB application. This book gui
 - **Author**: MoonWolf
 - **Year**: 2024
 - [Get the book on Amazon](https://www.amazon.com/dp/B0DPC6BY2L)
-- Branch [Book200](https://github.com/moonwolf001/Lazarus_Pascal_English/tree/book300)
+- Branch [Book300](https://github.com/moonwolf001/Lazarus_Pascal_English/tree/book300)
 
 
 ## Using This Repository
