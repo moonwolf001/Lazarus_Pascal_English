@@ -24,7 +24,7 @@ Dive deeper into game development with Lazarus and Pascal. This book provides a 
 
 ### Lazarus SQL DB with SQLite3 (Book300)
 
-Lazarus IDE is one of the best solution to develop DB application. This book guides you to solve initial issues when create SQLDB application.
+Lazarus IDE is one of the best solution to develop DB application. This book guides you to solve initial issues when create SQLDB application. By the end of this book, you can create basic DB Application.
 
 - **Author**: MoonWolf
 - **Year**: 2024
