@@ -34,7 +34,7 @@ Lazarus IDE is one of the best solution to develop DB application. This book gui
 
 ## Using This Repository
 
-To use the source code in this repository, simply navigate to the book-specific branches (`book100` and `book200`) to access the code relevant to each book. This setup allows you to easily find and utilize the examples and projects discussed in our books.
+To use the source code in this repository, simply navigate to the book-specific branches (`book100` to `book300`) to access the code relevant to each book. This setup allows you to easily find and utilize the examples and projects discussed in our books.
 
 ## License
 
